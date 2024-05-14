@@ -5,7 +5,7 @@
 Bienvenue sur mon portfolio  ! Ce projet a été réalisé dans le cadre de ma première année de BTS SIO. Ce portfolio a été développé avec React JS, CSS, SCSS et Bootstrap v5.🖌️
 
 
-Lien : `https://ocece77.github.io/portfolio/`
+Lien : https://ocece77.github.io/portfolio/
 
 ## Aperçu 👀
 
