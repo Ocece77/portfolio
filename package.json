@@ -8,11 +8,10 @@
     "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    
     "build": "vite build",
     "preview": "vite preview"
   },
-  
+
   "dependencies": {
     "bootstrap": "^5.3.3",
     "gsap": "^3.12.5",
