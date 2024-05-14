@@ -1,0 +1,26 @@
+.image{
+  position:relative;
+  overflow:hidden;
+  padding-bottom:100%;
+  img{
+    position:absolute;
+  }
+}
+
+.navbar-toggler-icon {
+  background-image: none!important;
+}
+
+h1{
+  font-size: 3.9em !important;
+}
+
+.subtitle{
+
+  div{
+    content:"";
+    width: 20px;
+    height:10px;
+    background-color: white;
+  }
+}
