@@ -2,25 +2,44 @@
   position:relative;
   overflow:hidden;
   padding-bottom:100%;
+
+  transition:.6s;
+  &:hover{
+    transform: translate(-3%);
+  }
+  
   img{
+    width: 100%;
+    top:0px;
+    left:0px;
+    transition:.6s;
     position:absolute;
   }
+
+  img:last-of-type{
+    image-rendering:pixelated;
+  }
+
+  &:hover img:last-of-type{
+    opacity:0;
+    transform: translate(-.2%);
+  }
 }
+
+
 
 .navbar-toggler-icon {
   background-image: none!important;
 }
 
 h1{
-  font-size: 3.9em !important;
+  font-size: 4em !important;
 }
 
 .subtitle{
 
   div{
-    content:"";
-    width: 20px;
-    height:10px;
+    height:5px;
     background-color: white;
   }
 }

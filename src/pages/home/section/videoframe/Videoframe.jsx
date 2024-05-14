@@ -60,9 +60,9 @@ const Videoframe = () => {
       <Container fluid className="intro" ref={introRef}>
         <video
           ref={videoRef}
-          className="video h-100 w-100"
+          className="video h-100 w-100 "
           src={video}
-
+          muted
         />
       </Container>
    

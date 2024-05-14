@@ -18,4 +18,15 @@ html, body, #root, #root>div   {
 
 }
 
+.nav-title{
+  top:30px;
+  position: absolute;
+  left: 30px;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: .6em !important;
+}
 
+.bg-blue{
+  background-color : var(--color-smoothblue);
+}

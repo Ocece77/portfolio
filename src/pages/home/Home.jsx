@@ -15,6 +15,7 @@ return (
 <Profil/>
 <Videoframe/>
 <Apropos/>
+<Projets/>
 
 
 
