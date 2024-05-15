@@ -5,7 +5,6 @@ import Profil from "./section/accueil/Accueil";
 import Navelement from "../../components/navelement/Navelement";
 import Videoframe from "./section/videoframe/Videoframe";
 import Projets from "./section/projet/Projets.jsx";
-import Cv from "./section/cv/Cv";
 import Apropos from "./section/apropos/Apropos";
 
  const Home =()=>{

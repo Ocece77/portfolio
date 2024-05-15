@@ -18,8 +18,8 @@ const Accueil = () => {
 
   
   return (
-    <Container id="accueil" >
-      <Container fluid className="mt-5 row w-100 p-2 align-item-center justify-content-start">
+    <Container  id="accueil" >
+      <Container className=" mt-5 row w-100 p-2 align-item-center justify-content-start">
         <Container className="row col col-md-10">
           {/* Column 1 */}
           <Container className="col-3">

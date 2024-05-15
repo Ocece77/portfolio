@@ -18,6 +18,17 @@
     }
     transition: .2s ease all;
   }
+#cv{
+  button{
+    &:hover{
+      opacity: .7;
+      transform: none !important;
+    }
+    transition: .5s ease all;
+  }
+
+}
+ 
 }
 
 .profil-container{

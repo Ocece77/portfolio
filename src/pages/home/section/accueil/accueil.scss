@@ -1,12 +1,16 @@
+#accueil{
+  overflow: hidden;
+  
+
+}
+
 .image{
   position:relative;
   overflow:hidden;
   padding-bottom:100%;
 
   transition:.6s;
-  &:hover{
-    transform: translate(-3%);
-  }
+ 
   
   img{
     width: 100%;
@@ -22,7 +26,7 @@
 
   &:hover img:last-of-type{
     opacity:0;
-    transform: translate(-.2%);
+   
   }
 }
 
