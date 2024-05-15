@@ -1,3 +1,13 @@
+@keyframes visibletext {
+
+  0%{
+    opacity: 3;
+  }
+  100%{
+    opacity: 0;
+    color: blue;
+  }
+}
 
 #apropos{
   background: url(./backgroundbody.svg);
@@ -26,9 +36,15 @@
     }
     transition: .5s ease all;
   }
+}
 
 }
- 
+
+.nav-title{
+  span{
+    opacity: 0;
+    animation: visibletext 6s ease;
+  }
 }
 
 .profil-container{

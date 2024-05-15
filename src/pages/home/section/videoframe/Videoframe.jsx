@@ -57,7 +57,7 @@ const Videoframe = () => {
 
   return (
     <>
-      <Container fluid className="intro" ref={introRef}>
+      <Container fluid className="d-sm-none d-md-block intro" ref={introRef}>
         <video
           ref={videoRef}
           className="video h-100 w-100 "

@@ -12,7 +12,6 @@ return (
 <>
 <Navelement/>
 <Profil/>
-<Videoframe/>
 <Apropos/>
 <Projets/>
 

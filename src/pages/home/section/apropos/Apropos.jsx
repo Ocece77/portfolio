@@ -18,6 +18,7 @@ gsap.registerPlugin(ScrollTrigger);
 const Apropos =()=>{
 
 
+
 const [isCont , setContActive] = useState(null);
 
 const togglePop = (id) =>{ 
@@ -57,8 +58,10 @@ return (
   <>
    <Container fluid id='apropos'>
 
-   <Container className="nav-title row position-absolute">
-       <h1 className=" fw-bold mb-5">A Propos.</h1>
+   <Container className="nav-title row position-absolute" >
+
+       <h1 className=" fw-bold ">A Propos.</h1>
+       <span className="fs-5">Vous pouvez bougez les elements</span>
    </Container>
 
    {/*Page 1*/}
