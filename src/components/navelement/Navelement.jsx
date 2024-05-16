@@ -18,8 +18,7 @@ const Navelement =() => {
           >
         <Nav.Link className="text-light px-4" href="#apropos">A propos</Nav.Link>
         <Nav.Link className="text-light px-4" href="#projets">Projets</Nav.Link>
-        <Nav.Link className="text-light px-4" href="#bts">Le BTS</Nav.Link>
-        <Nav.Link className="text-light px-4" href="#contacts">Contacts</Nav.Link>
+        <Nav.Link className="text-light px-4" href="#contact">Contact</Nav.Link>
         </Nav>
 
         </Navbar.Collapse>

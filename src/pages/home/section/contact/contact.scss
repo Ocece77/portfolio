@@ -1,0 +1,12 @@
+#contact{
+  height: fit-content !important;
+}
+
+a{
+  color: var(--color-smoothblue);
+  &:hover{
+    opacity: .7;
+  }
+}
+
+

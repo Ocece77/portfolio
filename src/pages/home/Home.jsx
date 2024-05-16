@@ -4,6 +4,7 @@ import './home.scss';
 import Profil from "./section/accueil/Accueil";
 import Projets from "./section/projet/Projets.jsx";
 import Apropos from "./section/apropos/Apropos";
+import Contact from "./section/contact/Contact";
 
  const Home =()=>{
 return (
@@ -12,7 +13,7 @@ return (
 <Profil/>
 <Apropos/>
 <Projets/>
-
+<Contact/>
 
 
 </>
