@@ -1,6 +1,5 @@
 #accueil{
-  overflow: hidden;
-  
+  overflow: hidden !important;
 
 }
 
@@ -8,10 +7,8 @@
   position:relative;
   overflow:hidden;
   padding-bottom:100%;
-
   transition:.6s;
  
-  
   img{
     width: 100%;
     top:0px;
@@ -26,7 +23,6 @@
 
   &:hover img:last-of-type{
     opacity:0;
-   
   }
 }
 
@@ -37,13 +33,26 @@
 }
 
 h1{
-  font-size: 4em !important;
+  font-size: 6rem !important;
 }
 
 .subtitle{
-
   div{
     height:5px;
     background-color: white;
   }
+}
+
+@media only screen and (max-width: 576px) {
+  h1{
+    font-size: 2rem !important;
+  }
+  
+}
+
+@media only screen and (max-width: 992px) {
+  h1{
+    font-size: 4rem !important;
+  }
+  
 }

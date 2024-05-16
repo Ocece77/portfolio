@@ -8,13 +8,13 @@
 }
 
 html, body, #root, #root>div   {
-  height: 100vh;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
   box-sizing: border-box;
   background-color: var(--color-video) ;
   font-family: monospace;
+  height: 100vh;
 
 }
 

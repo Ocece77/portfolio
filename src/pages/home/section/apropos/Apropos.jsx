@@ -58,9 +58,9 @@ return (
   <>
    <Container fluid id='apropos'>
 
-   <Container className="nav-title row position-absolute" >
+   <Container className=" nav-title row position-absolute" >
 
-       <h1 className=" fw-bold ">A Propos.</h1>
+       <h1 className="fs-1 fw-bold ">A Propos.</h1>
        <span className="fs-5">Vous pouvez bougez les elements</span>
    </Container>
 

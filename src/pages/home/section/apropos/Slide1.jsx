@@ -82,6 +82,7 @@ const togglePop = (id) =>{
   </Draggable>
 
     </Container>
+    
   </Container>
 
   

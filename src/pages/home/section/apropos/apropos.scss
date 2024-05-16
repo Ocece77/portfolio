@@ -1,11 +1,10 @@
 @keyframes visibletext {
 
   0%{
-    opacity: 3;
+    opacity: 1;
   }
   100%{
     opacity: 0;
-    color: blue;
   }
 }
 
@@ -28,6 +27,8 @@
     }
     transition: .2s ease all;
   }
+
+
 #cv{
   button{
     &:hover{
@@ -43,7 +44,7 @@
 .nav-title{
   span{
     opacity: 0;
-    animation: visibletext 6s ease;
+    animation: visibletext 15s ease;
   }
 }
 

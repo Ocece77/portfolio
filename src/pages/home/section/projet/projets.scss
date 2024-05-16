@@ -1,0 +1,31 @@
+#projets {
+  .container {
+    padding: 0;
+  }
+
+  .img-container {
+    position: relative;
+    overflow: hidden;
+
+    .img {
+      transition: opacity 0.4s;
+      object-fit: cover;
+    }
+
+    &:hover .img {
+      opacity: 0.3;
+    }
+
+    .hidden-text {
+      visibility: hidden;
+    }
+
+    &:hover .hidden-text {
+      visibility: visible;
+    }
+  }
+
+  .col {
+    padding: 0;
+  }
+}
