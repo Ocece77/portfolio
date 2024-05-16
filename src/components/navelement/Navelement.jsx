@@ -6,13 +6,13 @@ import './navelement.scss';
 const Navelement =() => {
   return (
 <>
-    <Navbar id='nav' className="text-light " style={{ background : 'transparent'}}>
+    <Navbar id='nav' expand="lg" className="text-light " style={{ background : 'transparent'}}>
       <Container>
 
         <Navbar.Brand className='fs-4 fw-bolder text-light ' href="#nav">Kasindu<span>.</span></Navbar.Brand>
        
-         <Navbar.Toggle aria-controls="navbarCollapse" />
-        <Navbar.Collapse className="justify-content-end" id="navbarCollapse">
+        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Collapse  id="navbarScroll">
         <Nav
             className="justify-content-end flex-grow-1 pe-3 me-auto" navbarCollapse
           >

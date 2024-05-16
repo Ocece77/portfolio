@@ -23,10 +23,10 @@ const Accueil = () => {
     <>
     <Navelement/>
     
-<Container fluid className='mb-5' style={{ position: "relative" }}>
+<Container fluid className='mb-5 ' style={{ position: "relative" }}>
        
         <CanvasDraw 
-         className="z-1 position-absolute top-0 start-0 p-5 rounded-3"
+         className="z-1 position-absolute top-0 start-0 p-5 rounded-3 invisible-sm"
           brushColor="#719EB7"
           brushRadius={2}
           hideGrid={true}
@@ -80,7 +80,7 @@ const Accueil = () => {
                 <p className='text-uppercase'>(établi en FRANCE [{`${new Date().getHours()}:${new Date().getMinutes()}`}])</p>
                 
                   <p className='border border-light p-2'>Disponible pour une alternance.</p>
-                  <p className='opacity-25'>Dessinez sur ma page d'accueil :) </p>
+                  <p className='opacity-25 invisible-sm'>Dessinez sur ma page d'accueil :) </p>
 
               </Container>
             </Container>

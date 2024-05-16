@@ -27,7 +27,6 @@
 }
 
 
-
 .navbar-toggler-icon {
   background-image: none!important;
 }
@@ -43,10 +42,17 @@ h1{
   }
 }
 
+
+
+
 @media only screen and (max-width: 576px) {
   h1{
     font-size: 2rem !important;
   }
+  .invisible-sm{
+    visibility: hidden !important;
+  }
+  
   
 }
 
@@ -54,5 +60,10 @@ h1{
   h1{
     font-size: 4rem !important;
   }
+  .invisible-sm{
+    visibility: hiddens !important;
+
+  }
+  
   
 }
