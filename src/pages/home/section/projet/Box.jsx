@@ -11,7 +11,7 @@ const Box = (props) => {
         <h1 className="text-light fs-1 fw-bolder">{props.name}</h1>
         <p className="text-light">{props.desc}</p>
         <button className="btn btn-default btn-dark">
-          <a className="text-light text-decoration-none" href={props.url} rel="noopener noreferrer">En voir plus</a>
+          <a className="text-light text-decoration-none" target="_blank" href={props.url} rel="noopener noreferrer">En voir plus</a>
         </button>
       </Container>
 
